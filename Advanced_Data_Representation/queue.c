@@ -19,8 +19,8 @@ int main()
     AddItem();
     AddItem();
     DisplayQueue();
-    DeleteItem();
-    DisplayQueue();
+    // DeleteItem();
+    // DisplayQueue();
  
     return 0;
 }

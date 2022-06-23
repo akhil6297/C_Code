@@ -26,10 +26,10 @@ int main()
     AddItem();
     AddItem();
     DisplayList();
-    DeleteItem(23);
-    DisplayList();
-    DeleteItem(0);
-    DisplayList();
+    // DeleteItem(23);
+    // DisplayList();
+    // DeleteItem(0);
+    // DisplayList();
  
     return 0;
 }
