@@ -36,7 +36,7 @@ int main()
 
 void AddItem(){
     Node *tmp=NULL;
-    tmp = (Node *)malloc(sizeof(int));
+    tmp = (Node *)malloc(sizeof(Node));
     printf("In Add item function, so enter the adding item details\n");
     scanf("%d",&tmp->data);
     tmp->next=NULL;
