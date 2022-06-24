@@ -26,8 +26,8 @@ int main()
     AddItem();
     AddItem();
     DisplayList();
-    // DeleteItem(23);
-    // DisplayList();
+    DeleteItem(23);
+    DisplayList();
     // DeleteItem(0);
     // DisplayList();
  
@@ -82,11 +82,11 @@ void DeleteItem(int i){
     }
     else{
         Node *p=head->next;
-        Node *prev=head->next;
+        Node *prev=head;
         while(p!=NULL){
             if(p->data==i){
                 found=1;
-                Node *tmp=prev->next;
+                Node *tmp=p;
                 prev->next=tmp->next;
                 tmp->next=NULL;
                 free(tmp);
